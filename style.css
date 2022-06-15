@@ -24,6 +24,7 @@ button {
     border: 3px solid black;
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 10px 10px black;
 }
 
 
@@ -56,11 +57,16 @@ border: 2px #16a085 solid;
 border-radius: 5px;
 background-color: white;
 font-size: 20px;  
+box-shadow: 3px 3px black;
 }
 
 .btn:hover{
     background-color: #ecf0f1;
 }
+
+.btn:active {
+    background-color: grey;
+  }
 
 .screen-last {
     min-height: 32px;
