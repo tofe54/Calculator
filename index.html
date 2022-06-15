@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Calc-u-Lator</title>
+</head>
+<body>
+    <main class="main">
+    <div class="container">
+        <div class="calculator">
+            <div class="screen">
+                <div class="screen-last" id="lastOperationScreen"></div>
+                <div class="screen-current" id="currentOperationScreen">0</div>
+            </div>
+            <div class="buttons-grid">
+                <button class="btn clear btn-blue" onclick="this.blur()">CLEAR</button>
+                <button class="btn delete btn-red" onclick="this.blur()">DELETE</button>
+                <button class="btn" onclick="this.blur()" data-number>7</button>
+                <button class="btn" onclick="this.blur()" data-number>8</button>
+                <button class="btn" onclick="this.blur()" data-number>9</button>
+                <button class="btn" onclick="this.blur()" data-operator>÷</button>
+                <button class="btn" onclick="this.blur()" data-number>4</button>
+                <button class="btn" onclick="this.blur()" data-number>5</button>
+                <button class="btn" onclick="this.blur()" data-number>6</button>
+                <button class="btn" onclick="this.blur()" data-operator>x</button>
+                <button class="btn" onclick="this.blur()" data-number>1</button>
+                <button class="btn" onclick="this.blur()" data-number>2</button>
+                <button class="btn" onclick="this.blur()" data-number>3</button>
+                <button class="btn" onclick="this.blur()" data-operator>-</button>
+                <button class="btn" onclick="this.blur()" id="point-btn">.</button>
+                <button class="btn" onclick="this.blur()" data-number>0</button>
+                <button class="btn" onclick="this.blur()" id="equals-btn">=</button>
+                <button class="btn" onclick="this.blur()" data-operator>+</button>
+            </div>
+        </div>
+    </div>
+</main>
+    <footer class="footer">Copyright ©  2022 Code_Moose</footer>
+</body>
+</html>

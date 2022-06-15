@@ -1,0 +1,103 @@
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    min-height: 700px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.calculator{
+    width: 400px;
+    background-color: #34495e;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+.buttons-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.clear, .delete {
+    grid-column: span 2;
+}
+
+.screen{
+    padding: 10px 20px;
+    border: 2px #16a085 solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.btn{
+padding: 20px;
+border: 2px #16a085 solid;
+border-radius: 5px;
+background-color: white;
+font-size: 20px;  
+}
+
+.btn:hover{
+    background-color: #ecf0f1;
+}
+
+.screen-last {
+    min-height: 32px;
+    font-size: 20px;
+}
+
+.screen-current {
+    min-height: 64px;
+    font-size: 40px;
+}
+
+.btn-red{
+    background-color: #e74c3c;
+}
+
+.btn-blue{
+    background-color: #3498db;
+}
+
+.btn-red:hover{
+    background-color: #c0392b;
+}
+
+.btn-blue:hover{
+    background-color:  #2980b9;
+   
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
